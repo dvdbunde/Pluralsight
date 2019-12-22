@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DddInPractice.Logic")]
+[assembly: AssemblyTitle("DddInPractice.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("DddInPractice.Logic")]
+[assembly: AssemblyProduct("DddInPractice.Tests")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ba47ee30-378b-4d9d-b89d-ee39e30a70d8")]
+[assembly: Guid("fd105f2b-0e71-4696-bd07-a3d593e59215")]
 
 // Version information for an assembly consists of the following four values:
 //
