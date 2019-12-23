@@ -69,7 +69,7 @@ namespace DddInPractice.Tests
                 fiveDollarCount,
                 twentyDollarCount);
 
-            action.Should().Throw<InvalidOperationException>();
+            action.ShouldThrow<InvalidOperationException>();
         }
 
         [Theory]
@@ -99,7 +99,7 @@ namespace DddInPractice.Tests
                 fiveDollarCount,
                 twentyDollarCount);
 
-            money.Amount.Should().Be((decimal)expectedAmount);
+            money.Amount.ShouldBeEquivalentTo(expectedAmount);
         }
 
         [Fact]
@@ -129,7 +129,7 @@ namespace DddInPractice.Tests
                 Money money = money1 - money2;
             };
 
-            action.Should().Throw<InvalidOperationException>();
+            action.ShouldThrow<InvalidOperationException>();
         }
 
         [Theory]
