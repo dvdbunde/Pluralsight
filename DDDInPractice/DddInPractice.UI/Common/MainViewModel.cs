@@ -1,15 +1,14 @@
-﻿using DddInPractice.Logic;
-using NHibernate;
+﻿using DddInPractice.UI.Management;
 
 namespace DddInPractice.UI.Common
 {
     public class MainViewModel : ViewModel
     {
+        public DashboardViewModel Dashboard { get; private set; }
+
         public MainViewModel()
         {
-            SnackMachine snackMachine = new SnackMachineRepository().GetById(1);
-            var viewModel = new SnackMachineViewModel(snackMachine);
-            _dialogService.ShowDialog(viewModel);
+            Dashboard = new DashboardViewModel();
         }
     }
 }
