@@ -42,7 +42,7 @@ namespace DddInPractice.Tests
 
             Action action = () => snackMachine.InsertMoney(twoCent);
 
-            action.ShouldThrow<InvalidOperationException>();
+            action.Should().Throw<InvalidOperationException>();
         }
 
         [Fact]
