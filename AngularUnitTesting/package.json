@@ -33,7 +33,7 @@
     "toastr": "2.1.4",
     "zone.js": "0.8.26",
     "lodash.mergewith": ">=4.6.2",
-    "lodash": ">=4.17.12"
+    "lodash": ">=4.17.19"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "0.11.2",
